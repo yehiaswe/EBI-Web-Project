@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LOG in </title>
+	<link rel="stylesheet" href="logincss.css" >
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+	<script>
+		function alert_forgetpass() {
+		  alert("Please check your e-mail to create a new password.");
+		}
+    </script>
+<header>
+	<!--nav -->
+	<nav>
+		<div class="menu">
+				<div class="logo">
+				  <a href="../home/index.html">Cake</a>
+				</div>
+					
+				<ul>
+				  <li><a href="../home/index.html">Home</a></li>
+				  <li><a href="../cake/cake.html">Menu</a></li>
+				  
+				</ul>
+		</div>
+	  </nav>
+	</header>
+	<!--nav -->
+<div class="login-wrap">
+	<div class="login-html">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Log in</label>
+		<div class="login-form">
+			<div class="sign-in-htm">
+        <div class="group">
+					<label for="user" class="label">Username</label>
+					<input id="user" type="text" class="input">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="pass" type="password" class="input" data-type="password">
+				</div>
+				<div class="group">
+					<input id="check" type="checkbox" class="check" checked>
+					<label for="check"><span class="icon"></span> Keep me Signed in</label>
+				</div>
+				<div class="group">
+					 <a class="button" href="../home/index.html">Log in</a><br>
+					 <a class="button" href="../sinup/sign.html">Sign up</a>
+				</div>
+				
+				<div class="hr"></div>
+				<div class="foot-lnk">
+					<a  onclick="alert_forgetpass()">Forget Password ?</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
