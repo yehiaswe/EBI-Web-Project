@@ -1,0 +1,167 @@
+
+.menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+
+}
+
+body {
+    background-color: #F2F1F0;
+}
+
+
+
+
+
+
+.menu .box-container .box {
+    background: #fff;
+
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+
+}
+
+.menu .box-container .box .image {
+
+    height: 30rem;
+    width: 100%;
+
+    padding: 1.5rem;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.menu .box-container .box .image img {
+    height: 100%;
+    width: 90%;
+    border-radius: .5rem;
+
+
+}
+
+.menu .box-container .box .content {
+    padding: 1rem;
+    padding-top: 0;
+    font-family: 'Salsa', cursive;
+
+
+}
+
+.btnn {
+    
+    position: absolute;
+    top: 2.5rem;
+    right: 6.5rem;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 50%;
+    color: gray;
+
+}
+
+.btnn:hover {
+    background-color: black;
+
+}
+
+.menu .box-container .box .content .stars i {
+
+    font-size: 1.7rem;
+    color: darkgrey;
+}
+
+.menu .box-container .box .content h3 {
+    display: contents;
+
+
+    color: darksalmon;
+    font-size: 2.5rem;
+
+}
+
+p {
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'poppins', sans-serif;
+
+
+
+}
+
+.menu .box-container .box .content .pice {
+    color: pink;
+    margin-left: 1rem;
+    font-size: 2.5rem;
+}
+
+.btn {
+    margin-top: -2rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #fff;
+    background: lightcoral;
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .4rem;
+    padding: .5rem .5rem;
+    text-decoration: none;
+}
+
+.btn:hover {
+    letter-spacing: .2rem;
+    background-color: darkgrey;
+
+}
+
+
+nav{
+    position: float;
+    background: pink;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+  }
+  nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .menu .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .menu ul{
+    display: inline-flex;
+  }
+  .menu ul li{
+    list-style: none;
+    margin-left: 7px;
+  }
+  .menu ul li:first-child{
+    margin-left: 0px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .menu ul li a:hover{
+    background: #fff;
+    color: black;
+  }
+  
